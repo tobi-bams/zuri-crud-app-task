@@ -5,7 +5,7 @@ const userCtrl = require('../controllers/userController');
 
 
 // Get All User Route
-router.get('/user', userCtrl.getAllUsers)
+router.get('/', userCtrl.getAllUsers)
 
 // Create User Route
 router.post('/user', userCtrl.createUser)
